@@ -24,7 +24,6 @@ public class Team {
                     win = false;
                     break;
                 }
-
             }
             if (win) {
                 System.out.printf("ПОЗДРАВЛЯЕМ участника команды %s. ОН преодолел ВСЕ ПРЕПЯДСТВИЯ! %n", t.toString());
