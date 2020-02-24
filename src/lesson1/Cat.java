@@ -5,6 +5,11 @@ public class Cat implements Activity {
     private int length;
     String  name;
 
+    public Cat(int higth, int length, String name) {
+        this.higth = higth;
+        this.length = length;
+        this.name = name;
+    }
     public int getHigth() {
         return higth;
     }
@@ -25,11 +30,7 @@ public class Cat implements Activity {
         return name;
     }
 
-    public Cat(int higth, int length, String name) {
-        this.higth = higth;
-        this.length = length;
-this.name = name;
-    }
+
 
     @Override
     public int runable() {
