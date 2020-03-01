@@ -7,15 +7,13 @@ public class MyTest {
 
     public static void main(String[] args) {
         String[][] strings = initial();
-        strings[2][3] = "five";
+        //strings[2][3] = "five";
 
         try {
             int arraySumma = summa(strings);
             System.out.println("Сумма чисел массива = " + arraySumma);
-        } catch (MyArrayDataException e) {
+        } catch (MyArrayDataException | MySizeArrayException e) {
             System.out.println(e.getMessage());
-        } catch (MySizeArrayException e) {
-            e.log();
         }
     }
 
@@ -36,12 +34,12 @@ public class MyTest {
         int myCorrectSize = 4;
         int mySumma = 0;
         if (str == null || str.length != myCorrectSize) {
-            throw new MySizeArrayException();
+            throw new MySizeArrayException("Размер массива не верно задан");
         }
 
             for (int i = 0; i < str.length; i++) {
                 if (str[i].length != myCorrectSize) {
-                    throw new MySizeArrayException();
+                    throw new MySizeArrayException("Размер массива не верно задан");
                 }
                 for (int j = 0; j < str[i].length; j++) {
                     try {
