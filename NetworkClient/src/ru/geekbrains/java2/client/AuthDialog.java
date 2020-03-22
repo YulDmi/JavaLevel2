@@ -20,6 +20,16 @@ public class AuthDialog extends JDialog {
 
     public AuthDialog() {
         connection();
+        Thread thread = new Thread(() -> {
+            try {
+                timing();
+            } catch (InterruptedException e) {
+                System.out.println("Попытка авторизации");
+            }
+        });
+        thread.setDaemon(true);
+        thread.start();
+
         setContentPane(contentPane);
         setModal(true);
         getRootPane().setDefaultButton(buttonOK);
@@ -29,12 +39,21 @@ public class AuthDialog extends JDialog {
 
         setDefaultCloseOperation(DO_NOTHING_ON_CLOSE);
         addWindowListener(new WindowAdapter() {
+            public void windowClosed (WindowEvent e){
+                thread.interrupt();
+            }
             public void windowClosing(WindowEvent e) {
                 onCancel();
             }
         });
         pack();
         setVisible(true);
+    }
+
+    private void timing() throws InterruptedException {
+        Thread.sleep(120000);
+        System.out.println("попытки авторизации не было, закрываемся");;
+                    onCancel();
     }
 
     private void onOK() {
@@ -57,8 +76,13 @@ public class AuthDialog extends JDialog {
     }
 
     private void onCancel() {
-        System.exit(0);
-       dispose();
+        dispose();
+        try {
+            socket.close();
+        } catch (IOException e) {
+            System.out.println("Ошибка закрытия соединения");
+            e.printStackTrace();
+        }
     }
 
     private void connection() {
