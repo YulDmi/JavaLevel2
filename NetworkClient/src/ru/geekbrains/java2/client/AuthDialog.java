@@ -7,7 +7,7 @@ import java.io.DataOutputStream;
 import java.io.IOException;
 import java.net.Socket;
 
-public class AuthDialog extends JDialog {
+public class AuthDialog extends JFrame {
     private Socket socket;
     private DataInputStream in;
     private DataOutputStream out;
@@ -31,7 +31,7 @@ public class AuthDialog extends JDialog {
         thread.start();
 
         setContentPane(contentPane);
-        setModal(true);
+        //setModal(true);
         getRootPane().setDefaultButton(buttonOK);
         setLocationRelativeTo(null);
         buttonOK.addActionListener(e -> onOK());
@@ -68,11 +68,13 @@ public class AuthDialog extends JDialog {
             System.out.println(text);
             if (text.startsWith("/auth")) {
                 new Client(socket, in, out);
-            }
+                dispose();
+            }else
+                JOptionPane.showMessageDialog(this, "Неверные логин/пароль");
         } catch (IOException e) {
             JOptionPane.showMessageDialog(this, "Ошибка при попытки аутентификации");
         }
-        dispose();
+
     }
 
     private void onCancel() {

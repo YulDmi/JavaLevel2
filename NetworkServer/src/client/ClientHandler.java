@@ -80,11 +80,11 @@ public class ClientHandler {
 
     private void privateMessage(String massage) {
         String [] words = massage.split("\\s+", 3);
-        String name = words[1];
-        ClientHandler privateClientHandler = myServer.privateClientHandler(name);
+        String nameNick = words[1];
+        ClientHandler privateClientHandler = myServer.privateClientHandler(nameNick);
        if ( privateClientHandler != null) {
            privateClientHandler.sendMessage(String.format("Приватное сообщение от %s : %s%n", name, words[2]));
-       }else this.sendMessage(String.format("Клиент %s  в данный момент не в чате. %n", name));
+       }else this.sendMessage(String.format("Клиент %s  в данный момент не в чате. %n", nameNick));
     }
 
     public void sendMessage(String msg) {
