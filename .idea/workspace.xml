@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85c4de03-430b-4cac-89f4-06f3f058ab87" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NetworkClient/src/ru/geekbrains/java2/client/AuthDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkClient/src/ru/geekbrains/java2/client/AuthDialog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaLevel2/lesson1/TestTeam.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLevel2/lesson1/TestTeam.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NetworkClient/ru/geekbrains/java2/client/AuthDialog$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NetworkClient/ru/geekbrains/java2/client/AuthDialog$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NetworkClient/ru/geekbrains/java2/client/AuthDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NetworkClient/ru/geekbrains/java2/client/AuthDialog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson1/TestTeam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson1/TestTeam.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="branch7" />
+        <entry key="$PROJECT_DIR$" value="branch8" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -65,7 +60,7 @@
       <recent name="ru.geekbrains.java2.client" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestTeam">
+  <component name="RunManager" selected="Application.ServerApp">
     <configuration name="AuthDialog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.geekbrains.java2.client.AuthDialog" />
       <module name="NetworkClient" />
@@ -140,10 +135,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ClientApp" />
         <item itemvalue="Application.ServerApp" />
-        <item itemvalue="Application.TestTeam" />
         <item itemvalue="Application.AuthDialog" />
+        <item itemvalue="Application.ClientApp" />
+        <item itemvalue="Application.TestTeam" />
         <item itemvalue="Application.TestPhoneBook" />
       </list>
     </recent_temporary>
@@ -309,14 +304,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="826" y="341" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582229953837" />
-    <state x="545" y="42" key="CommitChangelistDialog2" timestamp="1585381103652">
+    <state x="545" y="42" key="CommitChangelistDialog2" timestamp="1584874776794">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="545" y="42" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585381103652" />
-    <state x="184" y="79" key="DiffContextDialog" timestamp="1585381099746">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="184" y="79" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585381099746" />
+    <state x="545" y="42" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584874776794" />
     <state x="690" y="213" key="FileChooserDialogImpl" timestamp="1583255216833">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -329,22 +320,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="724" y="155" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582221966632" />
-    <state width="1865" height="308" key="GridCell.Tab.0.bottom" timestamp="1585384596197">
+    <state width="1865" height="308" key="GridCell.Tab.0.bottom" timestamp="1585386416278">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="308" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585384596197" />
-    <state width="1865" height="308" key="GridCell.Tab.0.center" timestamp="1585384596197">
+    <state width="1865" height="308" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585386416278" />
+    <state width="1865" height="308" key="GridCell.Tab.0.center" timestamp="1585386416278">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="308" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585384596197" />
-    <state width="1865" height="308" key="GridCell.Tab.0.left" timestamp="1585384596197">
+    <state width="1865" height="308" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585386416278" />
+    <state width="1865" height="308" key="GridCell.Tab.0.left" timestamp="1585386416278">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="308" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585384596197" />
-    <state width="1865" height="308" key="GridCell.Tab.0.right" timestamp="1585384596197">
+    <state width="1865" height="308" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585386416278" />
+    <state width="1865" height="308" key="GridCell.Tab.0.right" timestamp="1585386416278">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="308" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585384596197" />
+    <state width="1865" height="308" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585386416278" />
     <state width="1865" height="334" key="GridCell.Tab.1.bottom" timestamp="1583653151733">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -369,14 +360,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="352" y="72" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1583576117939" />
-    <state x="452" y="183" key="Vcs.Push.Dialog.v2" timestamp="1585381134005">
+    <state x="452" y="183" key="Vcs.Push.Dialog.v2" timestamp="1584874782883">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="452" y="183" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1585381134005" />
-    <state x="738" y="412" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585381371326">
+    <state x="452" y="183" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1584874782883" />
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1585386065512">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="738" y="412" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1585381371326" />
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585386065512" />
+    <state x="738" y="412" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585385880660">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="738" y="412" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1585385880660" />
     <state x="746" y="346" width="665" height="584" key="extract.method.dialog" timestamp="1584182420720">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

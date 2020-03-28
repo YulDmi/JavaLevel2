@@ -31,7 +31,6 @@ public class AuthDialog extends JFrame {
         thread.start();
 
         setContentPane(contentPane);
-        //setModal(true);
         getRootPane().setDefaultButton(buttonOK);
         setLocationRelativeTo(null);
         buttonOK.addActionListener(e -> onOK());
@@ -39,10 +38,9 @@ public class AuthDialog extends JFrame {
 
         setDefaultCloseOperation(DO_NOTHING_ON_CLOSE);
         addWindowListener(new WindowAdapter() {
-            public void windowClosed(WindowEvent e) {
+            public void windowClosed (WindowEvent e){
                 thread.interrupt();
             }
-
             public void windowClosing(WindowEvent e) {
                 onCancel();
             }
@@ -54,8 +52,7 @@ public class AuthDialog extends JFrame {
     private void timing() throws InterruptedException {
         Thread.sleep(120000);
         System.out.println("попытки авторизации не было, закрываемся");
-        ;
-        onCancel();
+                    onCancel();
     }
 
     private void onOK() {
@@ -64,9 +61,7 @@ public class AuthDialog extends JFrame {
         String pass = new String(passwordField1.getPassword()).trim();
         System.out.println(pass);
         try {
-            if (login.isEmpty() || pass.isEmpty()) {
-                JOptionPane.showMessageDialog(this, "Неверные логин/пароль");
-            } else {
+            if (!login.isEmpty() && !pass.isEmpty()) {
                 String tt = String.format("/auth %s %s", login, pass);
                 out.writeUTF(tt);
                 String text = in.readUTF();
@@ -74,14 +69,14 @@ public class AuthDialog extends JFrame {
                 if (text.startsWith("/auth")) {
                     new Client(socket, in, out);
                     dispose();
-                } else
-                    JOptionPane.showMessageDialog(this, "Неверные логин/пароль");
+                    return;
+                }
             }
-        } catch (IOException e) {
+            JOptionPane.showMessageDialog(this, "Неверные логин/пароль");
+        }catch (IOException e) {
             JOptionPane.showMessageDialog(this, "Ошибка при попытки аутентификации");
         }
     }
-
 
     private void onCancel() {
         dispose();
