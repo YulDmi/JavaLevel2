@@ -2,6 +2,7 @@ package lesson1;
 
 public class TestTeam {
     public static void main(String[] args) {
+
       Team teams = initTeam();
        Course [] courses = initCourse();
        teams.go(courses);
