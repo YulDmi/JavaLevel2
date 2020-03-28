@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="85c4de03-430b-4cac-89f4-06f3f058ab87" name="Default Changelist" comment="Chat 1_3">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="JavaLevel2" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="branch7" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\ASUS\IdeaProjects\JavaLevel2\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Y59LGK6n19dSM26aZoBfpSEjK7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propGUI" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ru.geekbrains.java2.client" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ClientApp">
+    <configuration name="AuthDialog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.java2.client.AuthDialog" />
+      <module name="NetworkClient" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.geekbrains.java2.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientApp" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.java2.client.ClientApp" />
+      <module name="NetworkClient" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.geekbrains.java2.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.java2.ServerApp" />
+      <module name="NetworkServer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.geekbrains.java2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPhoneBook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson3.TestPhoneBook" />
+      <module name="JavaLevel2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestTeam" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson1.TestTeam" />
+      <module name="JavaLevel2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.TestPhoneBook" />
+      <item itemvalue="Application.TestTeam" />
+      <item itemvalue="Application.ServerApp" />
+      <item itemvalue="Application.ClientApp" />
+      <item itemvalue="Application.AuthDialog" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AuthDialog" />
+        <item itemvalue="Application.ClientApp" />
+        <item itemvalue="Application.ServerApp" />
+        <item itemvalue="Application.TestTeam" />
+        <item itemvalue="Application.TestPhoneBook" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="85c4de03-430b-4cac-89f4-06f3f058ab87" name="Default Changelist" comment="" />
+      <created>1582221530108</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582221530108</updated>
+    </task>
+    <task id="LOCAL-00001" summary="ignore">
+      <created>1582222791397</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582222791397</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Полоса препядствий">
+      <created>1582384133689</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1582384133689</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Полоса препядствий">
+      <created>1582384229142</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1582384229142</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Полоса препядствий. Класс Cat синтаксис">
+      <created>1582533727729</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1582533727729</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Исключения">
+      <created>1582741596452</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1582741596452</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Телефонная книга">
+      <created>1583077495027</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1583077495027</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Телефонная книга">
+      <created>1583094438743</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1583094438743</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Окно для чата">
+      <created>1583343978909</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1583343978909</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Многопоточность">
+      <created>1583658341174</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1583658341174</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Чат">
+      <created>1584256530758</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1584256530758</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Chat 1_1">
+      <created>1584775435901</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1584775435901</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Chat 1_2">
+      <created>1584874778371</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1584874778371</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ignore" />
+    <MESSAGE value="Полоса препядствий" />
+    <MESSAGE value="Полоса препядствий. Класс Cat синтаксис" />
+    <MESSAGE value="Исключения" />
+    <MESSAGE value="Телефонная книга" />
+    <MESSAGE value="Окно для чата" />
+    <MESSAGE value="Многопоточность" />
+    <MESSAGE value="Чат" />
+    <MESSAGE value="Chat 1_1" />
+    <MESSAGE value="Chat 1_2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chat 1_2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="414" y="163" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584639657303">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="163" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584639657303" />
+    <state x="923" y="166" key="#com.intellij.ide.util.MemberChooser" timestamp="1584506258233">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="923" y="166" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1584506258233" />
+    <state x="627" y="257" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1584774885041">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="627" y="257" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584774885041" />
+    <state x="726" y="379" width="467" height="293" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1582369387553">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="726" y="379" width="467" height="293" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1582369387553" />
+    <state x="520" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1584556818545">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="520" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584556818545" />
+    <state x="826" y="341" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582229953837">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="826" y="341" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582229953837" />
+    <state x="545" y="42" key="CommitChangelistDialog2" timestamp="1585381103652">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="545" y="42" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585381103652" />
+    <state x="184" y="79" key="DiffContextDialog" timestamp="1585381099746">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="184" y="79" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585381099746" />
+    <state x="690" y="213" key="FileChooserDialogImpl" timestamp="1583255216833">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="213" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1583255216833" />
+    <state x="815" y="385" width="310" height="269" key="Github.ShareDialog" timestamp="1582221950155">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="815" y="385" width="310" height="269" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582221950155" />
+    <state x="724" y="155" key="Github.UntrackedFilesDialog" timestamp="1582221966632">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="724" y="155" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582221966632" />
+    <state width="1865" height="308" key="GridCell.Tab.0.bottom" timestamp="1585377387509">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="308" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585377387509" />
+    <state width="1865" height="308" key="GridCell.Tab.0.center" timestamp="1585377387509">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="308" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585377387509" />
+    <state width="1865" height="308" key="GridCell.Tab.0.left" timestamp="1585377387509">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="308" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585377387509" />
+    <state width="1865" height="308" key="GridCell.Tab.0.right" timestamp="1585377387509">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="308" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585377387509" />
+    <state width="1865" height="334" key="GridCell.Tab.1.bottom" timestamp="1583653151733">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="334" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583653151733" />
+    <state width="1865" height="334" key="GridCell.Tab.1.center" timestamp="1583653151733">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="334" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583653151733" />
+    <state width="1865" height="334" key="GridCell.Tab.1.left" timestamp="1583653151733">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="334" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583653151733" />
+    <state width="1865" height="334" key="GridCell.Tab.1.right" timestamp="1583653151733">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="334" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583653151733" />
+    <state x="852" y="553" key="ReplaceDuplicatesPrompt" timestamp="1582353795119">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="852" y="553" key="ReplaceDuplicatesPrompt/0.0.1920.1040@0.0.1920.1040" timestamp="1582353795119" />
+    <state x="352" y="72" key="SettingsEditor" timestamp="1583576117939">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="352" y="72" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1583576117939" />
+    <state x="452" y="183" key="Vcs.Push.Dialog.v2" timestamp="1585381134005">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="452" y="183" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1585381134005" />
+    <state x="738" y="412" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585381371326">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="738" y="412" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1585381371326" />
+    <state x="746" y="346" width="665" height="584" key="extract.method.dialog" timestamp="1584182420720">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="746" y="346" width="665" height="584" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584182420720" />
+    <state x="712" y="160" key="git4idea.branch.GitSmartOperationDialog" timestamp="1582534112405">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="712" y="160" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582534112405" />
+    <state x="230" y="48" key="new project wizard" timestamp="1584993726739">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="230" y="48" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1584993726739" />
+    <state x="642" y="61" key="refactoring.ChangeSignatureDialog" timestamp="1584772303581">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="642" y="61" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584772303581" />
+    <state x="659" y="267" key="run.anything.popup" timestamp="1582355943806">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="659" y="267" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1582355943806" />
+  </component>
+</project>
