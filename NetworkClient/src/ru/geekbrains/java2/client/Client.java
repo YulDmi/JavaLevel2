@@ -2,11 +2,11 @@ package ru.geekbrains.java2.client;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
-import java.io.*;
+import java.io.DataInputStream;
+import java.io.DataOutputStream;
+import java.io.IOException;
 import java.net.Socket;
 
 public class Client extends JFrame {
@@ -17,17 +17,18 @@ public class Client extends JFrame {
     private JTextField field;
     private JTextArea chatArea;
 
-    public Client(Socket socket, DataInputStream in, DataOutputStream out) {
+    public Client(Socket socket, DataInputStream in, DataOutputStream out, String name) {
         this.socket = socket;
         this.reader = in;
         this.writer = out;
-        showWindowGUI();
+
+        showWindowGUI(name);
         readMessage();
     }
 
-    private void showWindowGUI() {
+    private void showWindowGUI(String name) {
         setBounds(400, 400, 400, 400);
-        setTitle("Клиент");
+        setTitle("Клиент " + name);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         chatArea = new JTextArea();
         chatArea.setEditable(false);
@@ -35,19 +36,9 @@ public class Client extends JFrame {
         add(new JScrollPane(chatArea), BorderLayout.CENTER);
         JPanel panel = new JPanel(new BorderLayout());
         JButton button = new JButton("Отправить");
-        button.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                sendMessage();
-            }
-        });
+        button.addActionListener(e -> sendMessage());
         field = new JTextField();
-        field.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                sendMessage();
-            }
-        });
+        field.addActionListener(e -> sendMessage());
         panel.add(field, BorderLayout.CENTER);
         panel.add(button, BorderLayout.EAST);
         add(panel, BorderLayout.SOUTH);
@@ -63,7 +54,6 @@ public class Client extends JFrame {
                     System.out.println("Ошибка закрытия");
                 }
             }
-
         });
         setVisible(true);
     }

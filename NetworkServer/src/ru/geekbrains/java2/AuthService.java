@@ -2,6 +2,11 @@ package ru.geekbrains.java2;
 
 public interface AuthService {
     void start();
-    String getNickByLoginPass(String login, String pass);
+    int getIDByLoginPass(String login, String pass);
     void stop();
+
+
+    void changeNick(String nick, int ID);
+
+    String getNickById(int id);
 }

@@ -18,6 +18,7 @@ public class AuthDialog extends JFrame {
     private JTextField textField1;
     private JPasswordField passwordField1;
 
+
     public AuthDialog() {
         connection();
         Thread thread = new Thread(() -> {
@@ -38,9 +39,10 @@ public class AuthDialog extends JFrame {
 
         setDefaultCloseOperation(DO_NOTHING_ON_CLOSE);
         addWindowListener(new WindowAdapter() {
-            public void windowClosed (WindowEvent e){
+            public void windowClosed(WindowEvent e) {
                 thread.interrupt();
             }
+
             public void windowClosing(WindowEvent e) {
                 onCancel();
             }
@@ -52,7 +54,7 @@ public class AuthDialog extends JFrame {
     private void timing() throws InterruptedException {
         Thread.sleep(120000);
         System.out.println("попытки авторизации не было, закрываемся");
-                    onCancel();
+        onCancel();
     }
 
     private void onOK() {
@@ -67,13 +69,14 @@ public class AuthDialog extends JFrame {
                 String text = in.readUTF();
                 System.out.println(text);
                 if (text.startsWith("/auth")) {
-                    new Client(socket, in, out);
+                    String name = text.split("\\s+", 2)[1];
+                    new Client(socket, in, out, name);
                     dispose();
                     return;
                 }
             }
             JOptionPane.showMessageDialog(this, "Неверные логин/пароль");
-        }catch (IOException e) {
+        } catch (IOException e) {
             JOptionPane.showMessageDialog(this, "Ошибка при попытки аутентификации");
         }
     }
