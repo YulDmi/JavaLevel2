@@ -10,27 +10,24 @@ import java.util.List;
 
 public class MyServer {
     private static final int PORT = 8189;
-    private List<ClientHandler> clients;
-    private AuthService authService;
+    private final List<ClientHandler> clients = new ArrayList<>();
+    private final AuthService authService = new BaseAuthService();
 
 
     public MyServer() {
         try (ServerSocket serverSocket = new ServerSocket(PORT)) {
             System.out.println("Сервер запущен, ожидаем соединения...");
-            authService = new BaseAuthService();
             authService.start();
-            clients = new ArrayList<>();
             while (true) {
                 Socket client = serverSocket.accept();
                 System.out.println("Клиент подключен.");
                 new ClientHandler(this, client);
-
             }
         } catch (IOException e) {
             System.out.println("Ошибка работы сервера");
             e.printStackTrace();
         } finally {
-            if (authService != null) authService.stop();
+            authService.stop();
         }
     }
 
@@ -38,9 +35,9 @@ public class MyServer {
         return authService;
     }
 
-    public synchronized boolean isBusyNick(String nick) {
+    public synchronized boolean isBusyID(int id) {
         for (ClientHandler o : clients) {
-            if (o.getName().equals(nick)) return true;
+            if (o.getID() == id) return true;
         }
         return false;
     }
@@ -70,5 +67,7 @@ public class MyServer {
             }
         } return null;
     }
+
+
 }
 
