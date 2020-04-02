@@ -15,6 +15,8 @@ public class ClientHandler {
     private DataOutputStream out;
     private String name;
     private int ID;
+   // private MessageHistory history;
+
 
     public ClientHandler(MyServer serverSocket, Socket client) {
         try {
@@ -60,11 +62,7 @@ public class ClientHandler {
 
                 if (id != 0) {
                     if (!myServer.isBusyID(id)) {
-                        ID = id;
-                        name = myServer.getAuthService().getNickById(ID);
-                        sendMessage("/auth " + name);
-                        myServer.broadcastMsg("К чату присоединился " + name, name);
-                        myServer.subscribe(this);
+                        getAuthentication(id);
                         return;
                     } else sendMessage("Клиент с таким ником уже есть в чате.");
                 } else sendMessage("Неверный логин/пароль");
@@ -72,10 +70,21 @@ public class ClientHandler {
         }
     }
 
+    private void getAuthentication(int id) {
+        ID = id;
+        name = myServer.getAuthService().getNickById(ID);
+        sendMessage("/auth " + name);
+        sendMessage(myServer.getMh().getStringMassage());
+        myServer.broadcastMsg("К чату присоединился " + name, name);
+        myServer.subscribe(this);
+    }
+
     private void readMessage() throws IOException {
         while (true) {
             String message = in.readUTF();
-            System.out.printf("От %s : %s%n", name, message);
+            String text = String.format("От %s : %s%n", name, message);
+            System.out.print(text);
+            myServer.getMh().writeMassage(text);
             if (message.equalsIgnoreCase("/end")) {
                 myServer.unsubscribe(this);
                 return;

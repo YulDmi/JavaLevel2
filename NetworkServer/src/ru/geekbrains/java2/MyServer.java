@@ -1,6 +1,7 @@
 package ru.geekbrains.java2;
 
 import client.ClientHandler;
+import client.MessageHistory;
 
 import java.io.IOException;
 import java.net.ServerSocket;
@@ -12,6 +13,12 @@ public class MyServer {
     private static final int PORT = 8189;
     private final List<ClientHandler> clients = new ArrayList<>();
     private final AuthService authService = new BaseAuthService();
+    private final MessageHistory mh = new MessageHistory();
+
+    public MessageHistory getMh() {
+        return mh;
+    }
+
 
 
     public MyServer() {
