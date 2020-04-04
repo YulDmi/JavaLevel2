@@ -70,7 +70,7 @@ public class AuthDialog extends JFrame {
                 System.out.println(text);
                 if (text.startsWith("/auth")) {
                     String name = text.split("\\s+", 2)[1];
-                    new Client(socket, in, out, name);
+                    new Client(socket, in, out, name, login);
                     dispose();
                     return;
                 }

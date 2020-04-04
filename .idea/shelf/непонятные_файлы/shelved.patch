@@ -1,0 +1,215 @@
+Index: .idea/uiDesigner.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/uiDesigner.xml	(date 1585381500239)
++++ .idea/uiDesigner.xml	(date 1585381500239)
+@@ -0,0 +1,124 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="Palette2">
++    <group name="Swing">
++      <item class="com.intellij.uiDesigner.HSpacer" tooltip-text="Horizontal Spacer" icon="/com/intellij/uiDesigner/icons/hspacer.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="1" hsize-policy="6" anchor="0" fill="1" />
++      </item>
++      <item class="com.intellij.uiDesigner.VSpacer" tooltip-text="Vertical Spacer" icon="/com/intellij/uiDesigner/icons/vspacer.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="1" anchor="0" fill="2" />
++      </item>
++      <item class="javax.swing.JPanel" icon="/com/intellij/uiDesigner/icons/panel.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JScrollPane" icon="/com/intellij/uiDesigner/icons/scrollPane.png" removable="false" auto-create-binding="false" can-attach-label="true">
++        <default-constraints vsize-policy="7" hsize-policy="7" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JButton" icon="/com/intellij/uiDesigner/icons/button.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="0" fill="1" />
++        <initial-values>
++          <property name="text" value="Button" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JRadioButton" icon="/com/intellij/uiDesigner/icons/radioButton.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="RadioButton" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JCheckBox" icon="/com/intellij/uiDesigner/icons/checkBox.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="CheckBox" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JLabel" icon="/com/intellij/uiDesigner/icons/label.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="0" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="Label" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JTextField" icon="/com/intellij/uiDesigner/icons/textField.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JPasswordField" icon="/com/intellij/uiDesigner/icons/passwordField.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JFormattedTextField" icon="/com/intellij/uiDesigner/icons/formattedTextField.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTextArea" icon="/com/intellij/uiDesigner/icons/textArea.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTextPane" icon="/com/intellij/uiDesigner/icons/textPane.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JEditorPane" icon="/com/intellij/uiDesigner/icons/editorPane.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JComboBox" icon="/com/intellij/uiDesigner/icons/comboBox.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="2" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JTable" icon="/com/intellij/uiDesigner/icons/table.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JList" icon="/com/intellij/uiDesigner/icons/list.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="2" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTree" icon="/com/intellij/uiDesigner/icons/tree.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTabbedPane" icon="/com/intellij/uiDesigner/icons/tabbedPane.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
++          <preferred-size width="200" height="200" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JSplitPane" icon="/com/intellij/uiDesigner/icons/splitPane.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
++          <preferred-size width="200" height="200" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JSpinner" icon="/com/intellij/uiDesigner/icons/spinner.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JSlider" icon="/com/intellij/uiDesigner/icons/slider.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JSeparator" icon="/com/intellij/uiDesigner/icons/separator.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JProgressBar" icon="/com/intellij/uiDesigner/icons/progressbar.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1" />
++      </item>
++      <item class="javax.swing.JToolBar" icon="/com/intellij/uiDesigner/icons/toolbar.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1">
++          <preferred-size width="-1" height="20" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JToolBar$Separator" icon="/com/intellij/uiDesigner/icons/toolbarSeparator.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="0" anchor="0" fill="1" />
++      </item>
++      <item class="javax.swing.JScrollBar" icon="/com/intellij/uiDesigner/icons/scrollbar.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="0" anchor="0" fill="2" />
++      </item>
++    </group>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/vcs.xml	(date 1585381554073)
++++ .idea/vcs.xml	(date 1585381554073)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"85c4de03-430b-4cac-89f4-06f3f058ab87\" name=\"Default Changelist\" comment=\"Chat 1_3\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FavoritesManager\">\r\n    <favorites_list name=\"JavaLevel2\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Interface\" />\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"branch7\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n    <option name=\"UPDATE_TYPE\" value=\"MERGE\" />\r\n  </component>\r\n  <component name=\"IgnoredFileRootStore\">\r\n    <option name=\"generatedRoots\">\r\n      <set>\r\n        <option value=\"C:\\Users\\ASUS\\IdeaProjects\\JavaLevel2\\.idea\" />\r\n      </set>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"1Y59LGK6n19dSM26aZoBfpSEjK7\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"1\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"autoscrollFromSource\" value=\"true\" />\r\n    <option name=\"autoscrollToSource\" value=\"true\" />\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showExcludedFiles\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"SHARE_PROJECT_CONFIGURATION_FILES\" value=\"true\" />\r\n    <property name=\"extract.method.default.visibility\" value=\"private\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\r\n    <property name=\"settings.editor.selected.configurable\" value=\"project.propGUI\" />\r\n  </component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CreateClassDialog.RecentsKey\">\r\n      <recent name=\"ru.geekbrains.java2.client\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Application.ClientApp\">\r\n    <configuration name=\"AuthDialog\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"ru.geekbrains.java2.client.AuthDialog\" />\r\n      <module name=\"NetworkClient\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"ru.geekbrains.java2.client.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"ClientApp\" type=\"Application\" factoryName=\"Application\" singleton=\"false\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"ru.geekbrains.java2.client.ClientApp\" />\r\n      <module name=\"NetworkClient\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"ru.geekbrains.java2.client.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"ServerApp\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"ru.geekbrains.java2.ServerApp\" />\r\n      <module name=\"NetworkServer\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"ru.geekbrains.java2.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"TestPhoneBook\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"lesson3.TestPhoneBook\" />\r\n      <module name=\"JavaLevel2\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"lesson3.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"TestTeam\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"lesson1.TestTeam\" />\r\n      <module name=\"JavaLevel2\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"lesson1.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <list>\r\n      <item itemvalue=\"Application.TestPhoneBook\" />\r\n      <item itemvalue=\"Application.TestTeam\" />\r\n      <item itemvalue=\"Application.ServerApp\" />\r\n      <item itemvalue=\"Application.ClientApp\" />\r\n      <item itemvalue=\"Application.AuthDialog\" />\r\n    </list>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.AuthDialog\" />\r\n        <item itemvalue=\"Application.ClientApp\" />\r\n        <item itemvalue=\"Application.ServerApp\" />\r\n        <item itemvalue=\"Application.TestTeam\" />\r\n        <item itemvalue=\"Application.TestPhoneBook\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"ServiceViewManager\">\r\n    <option name=\"viewStates\">\r\n      <list>\r\n        <serviceView>\r\n          <treeState>\r\n            <expand />\r\n            <select />\r\n          </treeState>\r\n        </serviceView>\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"SvnConfiguration\">\r\n    <configuration />\r\n  </component>\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"85c4de03-430b-4cac-89f4-06f3f058ab87\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1582221530108</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1582221530108</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"ignore\">\r\n      <created>1582222791397</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1582222791397</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Полоса препядствий\">\r\n      <created>1582384133689</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1582384133689</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Полоса препядствий\">\r\n      <created>1582384229142</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1582384229142</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"Полоса препядствий. Класс Cat синтаксис\">\r\n      <created>1582533727729</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1582533727729</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"Исключения\">\r\n      <created>1582741596452</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1582741596452</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"Телефонная книга\">\r\n      <created>1583077495027</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1583077495027</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"Телефонная книга\">\r\n      <created>1583094438743</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1583094438743</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"Окно для чата\">\r\n      <created>1583343978909</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1583343978909</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"Многопоточность\">\r\n      <created>1583658341174</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1583658341174</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00010\" summary=\"Чат\">\r\n      <created>1584256530758</created>\r\n      <option name=\"number\" value=\"00010\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1584256530758</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00011\" summary=\"Chat 1_1\">\r\n      <created>1584775435901</created>\r\n      <option name=\"number\" value=\"00011\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1584775435901</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00012\" summary=\"Chat 1_2\">\r\n      <created>1584874778371</created>\r\n      <option name=\"number\" value=\"00012\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00012\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1584874778371</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"13\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"COLUMN_ORDER\" />\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"ignore\" />\r\n    <MESSAGE value=\"Полоса препядствий\" />\r\n    <MESSAGE value=\"Полоса препядствий. Класс Cat синтаксис\" />\r\n    <MESSAGE value=\"Исключения\" />\r\n    <MESSAGE value=\"Телефонная книга\" />\r\n    <MESSAGE value=\"Окно для чата\" />\r\n    <MESSAGE value=\"Многопоточность\" />\r\n    <MESSAGE value=\"Чат\" />\r\n    <MESSAGE value=\"Chat 1_1\" />\r\n    <MESSAGE value=\"Chat 1_2\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Chat 1_2\" />\r\n  </component>\r\n  <component name=\"WindowStateProjectService\">\r\n    <state x=\"414\" y=\"163\" key=\"#com.intellij.execution.impl.EditConfigurationsDialog\" timestamp=\"1584639657303\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state x=\"414\" y=\"163\" key=\"#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1584639657303\" />\r\n    <state x=\"923\" y=\"166\" key=\"#com.intellij.ide.util.MemberChooser\" timestamp=\"1584506258233\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state x=\"923\" y=\"166\" key=\"#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1584506258233\" />\r\n    <state x=\"627\" y=\"257\" key=\"#com.intellij.ide.util.TreeClassChooserDialog\" timestamp=\"1584774885041\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state x=\"627\" y=\"257\" key=\"#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1584774885041\" />\r\n    <state x=\"726\" y=\"379\" width=\"467\" height=\"293\" key=\"#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes\" timestamp=\"1582369387553\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state x=\"726\" y=\"379\" width=\"467\" height=\"293\" key=\"#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1582369387553\" />\r\n    <state x=\"520\" y=\"0\" key=\"#com.intellij.refactoring.rename.AutomaticRenamingDialog\" timestamp=\"1584556818545\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state x=\"520\" y=\"0\" key=\"#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1584556818545\" />\r\n    <state x=\"826\" y=\"341\" key=\"#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog\" timestamp=\"1582229953837\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state x=\"826\" y=\"341\" key=\"#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1582229953837\" />\r\n    <state x=\"545\" y=\"42\" key=\"CommitChangelistDialog2\" timestamp=\"1585381103652\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state x=\"545\" y=\"42\" key=\"CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1585381103652\" />\r\n    <state x=\"184\" y=\"79\" key=\"DiffContextDialog\" timestamp=\"1585381099746\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state x=\"184\" y=\"79\" key=\"DiffContextDialog/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1585381099746\" />\r\n    <state x=\"690\" y=\"213\" key=\"FileChooserDialogImpl\" timestamp=\"1583255216833\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state x=\"690\" y=\"213\" key=\"FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1583255216833\" />\r\n    <state x=\"815\" y=\"385\" width=\"310\" height=\"269\" key=\"Github.ShareDialog\" timestamp=\"1582221950155\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state x=\"815\" y=\"385\" width=\"310\" height=\"269\" key=\"Github.ShareDialog/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1582221950155\" />\r\n    <state x=\"724\" y=\"155\" key=\"Github.UntrackedFilesDialog\" timestamp=\"1582221966632\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state x=\"724\" y=\"155\" key=\"Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1582221966632\" />\r\n    <state width=\"1865\" height=\"308\" key=\"GridCell.Tab.0.bottom\" timestamp=\"1585377387509\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state width=\"1865\" height=\"308\" key=\"GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1585377387509\" />\r\n    <state width=\"1865\" height=\"308\" key=\"GridCell.Tab.0.center\" timestamp=\"1585377387509\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state width=\"1865\" height=\"308\" key=\"GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1585377387509\" />\r\n    <state width=\"1865\" height=\"308\" key=\"GridCell.Tab.0.left\" timestamp=\"1585377387509\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state width=\"1865\" height=\"308\" key=\"GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1585377387509\" />\r\n    <state width=\"1865\" height=\"308\" key=\"GridCell.Tab.0.right\" timestamp=\"1585377387509\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state width=\"1865\" height=\"308\" key=\"GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1585377387509\" />\r\n    <state width=\"1865\" height=\"334\" key=\"GridCell.Tab.1.bottom\" timestamp=\"1583653151733\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state width=\"1865\" height=\"334\" key=\"GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1583653151733\" />\r\n    <state width=\"1865\" height=\"334\" key=\"GridCell.Tab.1.center\" timestamp=\"1583653151733\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state width=\"1865\" height=\"334\" key=\"GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1583653151733\" />\r\n    <state width=\"1865\" height=\"334\" key=\"GridCell.Tab.1.left\" timestamp=\"1583653151733\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state width=\"1865\" height=\"334\" key=\"GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1583653151733\" />\r\n    <state width=\"1865\" height=\"334\" key=\"GridCell.Tab.1.right\" timestamp=\"1583653151733\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state width=\"1865\" height=\"334\" key=\"GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1583653151733\" />\r\n    <state x=\"852\" y=\"553\" key=\"ReplaceDuplicatesPrompt\" timestamp=\"1582353795119\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state x=\"852\" y=\"553\" key=\"ReplaceDuplicatesPrompt/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1582353795119\" />\r\n    <state x=\"352\" y=\"72\" key=\"SettingsEditor\" timestamp=\"1583576117939\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state x=\"352\" y=\"72\" key=\"SettingsEditor/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1583576117939\" />\r\n    <state x=\"452\" y=\"183\" key=\"Vcs.Push.Dialog.v2\" timestamp=\"1585381134005\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state x=\"452\" y=\"183\" key=\"Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1585381134005\" />\r\n    <state x=\"738\" y=\"412\" key=\"com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2\" timestamp=\"1585381371326\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state x=\"738\" y=\"412\" key=\"com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1585381371326\" />\r\n    <state x=\"746\" y=\"346\" width=\"665\" height=\"584\" key=\"extract.method.dialog\" timestamp=\"1584182420720\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state x=\"746\" y=\"346\" width=\"665\" height=\"584\" key=\"extract.method.dialog/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1584182420720\" />\r\n    <state x=\"712\" y=\"160\" key=\"git4idea.branch.GitSmartOperationDialog\" timestamp=\"1582534112405\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state x=\"712\" y=\"160\" key=\"git4idea.branch.GitSmartOperationDialog/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1582534112405\" />\r\n    <state x=\"230\" y=\"48\" key=\"new project wizard\" timestamp=\"1584993726739\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state x=\"230\" y=\"48\" key=\"new project wizard/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1584993726739\" />\r\n    <state x=\"642\" y=\"61\" key=\"refactoring.ChangeSignatureDialog\" timestamp=\"1584772303581\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state x=\"642\" y=\"61\" key=\"refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1584772303581\" />\r\n    <state x=\"659\" y=\"267\" key=\"run.anything.popup\" timestamp=\"1582355943806\">\r\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\r\n    </state>\r\n    <state x=\"659\" y=\"267\" key=\"run.anything.popup/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1582355943806\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision 205c6bf578cdcc3359bffd4b74bebc88d96f19c6)
++++ .idea/workspace.xml	(date 1585381669859)
+@@ -1,9 +1,7 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="85c4de03-430b-4cac-89f4-06f3f058ab87" name="Default Changelist" comment="Chat 1_3">
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-    </list>
++    <list default="true" id="85c4de03-430b-4cac-89f4-06f3f058ab87" name="Default Changelist" comment="Chat 1_3" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -23,7 +21,7 @@
+   <component name="Git.Settings">
+     <option name="RECENT_BRANCH_BY_REPOSITORY">
+       <map>
+-        <entry key="$PROJECT_DIR$" value="branch7" />
++        <entry key="$PROJECT_DIR$" value="branch8" />
+       </map>
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+@@ -355,6 +353,14 @@
+       <screen x="0" y="0" width="1920" height="1040" />
+     </state>
+     <state width="1865" height="334" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583653151733" />
++    <state x="184" y="79" key="MergeDialog" timestamp="1585381479319">
++      <screen x="0" y="0" width="1920" height="1040" />
++    </state>
++    <state x="184" y="79" key="MergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585381479319" />
++    <state x="606" y="161" key="MultipleFileMergeDialog" timestamp="1585381567619">
++      <screen x="0" y="0" width="1920" height="1040" />
++    </state>
++    <state x="606" y="161" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585381567619" />
+     <state x="852" y="553" key="ReplaceDuplicatesPrompt" timestamp="1582353795119">
+       <screen x="0" y="0" width="1920" height="1040" />
+     </state>
+@@ -367,18 +373,18 @@
+       <screen x="0" y="0" width="1920" height="1040" />
+     </state>
+     <state x="452" y="183" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1585381134005" />
+-    <state x="738" y="412" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585381371326">
++    <state x="738" y="412" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585381553519">
+       <screen x="0" y="0" width="1920" height="1040" />
+     </state>
+-    <state x="738" y="412" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1585381371326" />
++    <state x="738" y="412" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1585381553519" />
+     <state x="746" y="346" width="665" height="584" key="extract.method.dialog" timestamp="1584182420720">
+       <screen x="0" y="0" width="1920" height="1040" />
+     </state>
+     <state x="746" y="346" width="665" height="584" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584182420720" />
+-    <state x="712" y="160" key="git4idea.branch.GitSmartOperationDialog" timestamp="1582534112405">
++    <state x="712" y="160" key="git4idea.branch.GitSmartOperationDialog" timestamp="1585381409060">
+       <screen x="0" y="0" width="1920" height="1040" />
+     </state>
+-    <state x="712" y="160" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582534112405" />
++    <state x="712" y="160" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585381409060" />
+     <state x="230" y="48" key="new project wizard" timestamp="1584993726739">
+       <screen x="0" y="0" width="1920" height="1040" />
+     </state>

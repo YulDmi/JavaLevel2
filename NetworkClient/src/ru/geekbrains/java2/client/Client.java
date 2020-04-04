@@ -4,24 +4,23 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
-import java.io.DataInputStream;
-import java.io.DataOutputStream;
-import java.io.IOException;
+import java.io.*;
 import java.net.Socket;
 
 public class Client extends JFrame {
     private Socket socket;
     private DataInputStream reader;
     private DataOutputStream writer;
+    private HistoryWriter bw;
 
     private JTextField field;
     private JTextArea chatArea;
 
-    public Client(Socket socket, DataInputStream in, DataOutputStream out, String name) {
+    public Client(Socket socket, DataInputStream in, DataOutputStream out, String name, String login) {
         this.socket = socket;
         this.reader = in;
         this.writer = out;
-
+        bw = new HistoryWriter(login);
         showWindowGUI(name);
         readMessage();
     }
@@ -49,6 +48,7 @@ public class Client extends JFrame {
                 super.windowClosing(e);
                 try {
                     writer.writeUTF("/end");
+                    bw.writeHistory("Приложение закрыто");
                     closeConnection();
                 } catch (IOException ex) {
                     System.out.println("Ошибка закрытия");
@@ -70,6 +70,8 @@ public class Client extends JFrame {
 
     private void sendMessage() {
         String text = field.getText();
+        String textFormat = String.format("Я: %s %n", text);
+        bw.writeHistory(textFormat);
         if (!text.trim().isEmpty()) {
             try {
                 writer.writeUTF(text);
@@ -77,7 +79,7 @@ public class Client extends JFrame {
                     JOptionPane.showMessageDialog(null, "Вы разорвали соединение с сервером.");
                     closeConnection();
                 }
-                chatArea.append(String.format("Я: %s %n", text));
+                chatArea.append(textFormat);
                 field.setText("");
                 field.grabFocus();
             } catch (IOException e) {
@@ -94,6 +96,7 @@ public class Client extends JFrame {
                 try {
                     while (true) {
                         String serverText = reader.readUTF();
+                        bw.writeHistory(serverText);
                         chatArea.append(serverText);
                         if (serverText.equalsIgnoreCase("/end")) {
                             JOptionPane.showMessageDialog(null, "Соединение с сервером разорвано");
