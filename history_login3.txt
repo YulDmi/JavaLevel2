@@ -53,4 +53,10 @@ hello
 От nick2 : ыфпввар
 От nick3 : пока
 От nick3 : /end
-Приложение закрыто
+Приложение закрытоОт TommCatt : hello
+От nick2 : и тебе
+От TommCatt : все хорошо
+От nick2 : да, все отлично
+От nick2 : /w TommCatt все плохо
+От TommCatt : /w nick2 почему
+Я: /end 

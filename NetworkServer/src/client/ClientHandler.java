@@ -7,6 +7,9 @@ import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
 import java.net.Socket;
+import java.util.concurrent.Executor;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 public class ClientHandler {
     private MyServer myServer;
@@ -26,7 +29,8 @@ public class ClientHandler {
             this.out = new DataOutputStream(socket.getOutputStream());
             this.name = "";
             this.ID = 0;
-            new Thread(new Runnable() {
+            ExecutorService service = Executors.newFixedThreadPool(1);
+            service.submit(new Runnable() {
                 @Override
                 public void run() {
                     try {
@@ -38,7 +42,8 @@ public class ClientHandler {
                         closeConnection();
                     }
                 }
-            }).start();
+            });
+            service.shutdown();
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -84,7 +89,6 @@ public class ClientHandler {
             String message = in.readUTF();
             String text = String.format("От %s : %s%n", name, message);
             System.out.print(text);
-            myServer.getMh().writeMassage(text);
             if (message.equalsIgnoreCase("/end")) {
                 myServer.unsubscribe(this);
                 return;
@@ -93,6 +97,7 @@ public class ClientHandler {
             } else if (message.startsWith("/cn ")) {
                 changeField(message);
             } else {
+                myServer.getMh().writeMassage(text);
                 myServer.broadcastMsg(message, name);
             }
         }
