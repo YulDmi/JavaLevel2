@@ -2,16 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85c4de03-430b-4cac-89f4-06f3f058ab87" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/JavaLevel2/Java3lesson4/MyClass.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java3lesson4/MyClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaLevel2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaLevel2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkClient/src/ru/geekbrains/java2/client/HistoryWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkClient/src/ru/geekbrains/java2/client/HistoryWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkServer/NetworkServer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkServer/NetworkServer.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NetworkServer/src/client/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkServer/src/client/ClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkServer/src/ru/geekbrains/java2/BaseAuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkServer/src/ru/geekbrains/java2/BaseAuthService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkServer/src/ru/geekbrains/java2/MySQLConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkServer/src/ru/geekbrains/java2/MySQLConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkServer/src/ru/geekbrains/java2/MyServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkServer/src/ru/geekbrains/java2/MyServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/history_login1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history_login1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history_login2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history_login2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history_login3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history_login3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaLevel2/lesson1/bbb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLevel2/Java3lesson4/MyClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLevel2/Java3lesson4/MyClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NetworkClient/ru/geekbrains/java2/client/HistoryWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NetworkClient/ru/geekbrains/java2/client/HistoryWriter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/NetworkServer/client/ClientHandler$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NetworkServer/client/ClientHandler$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/NetworkServer/client/ClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NetworkServer/client/ClientHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NetworkServer/ru/geekbrains/java2/BaseAuthService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NetworkServer/ru/geekbrains/java2/BaseAuthService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NetworkServer/ru/geekbrains/java2/MySQLConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NetworkServer/ru/geekbrains/java2/MySQLConnection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NetworkServer/ru/geekbrains/java2/MyServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NetworkServer/ru/geekbrains/java2/MyServer.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +31,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="JUnit4 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -32,7 +39,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="branch11" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -57,8 +64,14 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -67,46 +80,26 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\ASUS\IdeaProjects\JavaLevel2" />
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="lesson7" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="ru.geekbrains.java2.client" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ASUS\IdeaProjects\JavaLevel2" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.ClientApp">
-    <configuration name="AuthDialog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.java2.client.AuthDialog" />
-      <module name="NetworkClient" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.geekbrains.java2.client.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ClientApp" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.java2.client.ClientApp" />
-      <module name="NetworkClient" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.geekbrains.java2.client.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.MyClassTest">
     <configuration name="MyClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java3lesson4.MyClass" />
+      <option name="MAIN_CLASS_NAME" value="lesson7.MyClass" />
       <module name="JavaLevel2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java3lesson4.*" />
+          <option name="PATTERN" value="lesson7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,46 +107,82 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MySQLConnection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.java2.MySQLConnection" />
-      <module name="NetworkServer" />
+    <configuration name="MyClassMassTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaLevel2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.geekbrains.java2.*" />
+          <option name="PATTERN" value="lesson7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="lesson7" />
+      <option name="MAIN_CLASS_NAME" value="lesson7.MyClassMassTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ServerApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.java2.ServerApp" />
-      <module name="NetworkServer" />
+    <configuration name="MyClassTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaLevel2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.geekbrains.java2.*" />
+          <option name="PATTERN" value="lesson7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="lesson7" />
+      <option name="MAIN_CLASS_NAME" value="lesson7.MyClassTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyClassTest.change" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaLevel2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lesson7" />
+      <option name="MAIN_CLASS_NAME" value="lesson7.MyClassTest" />
+      <option name="METHOD_NAME" value="change" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyClassTest.check" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaLevel2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lesson7" />
+      <option name="MAIN_CLASS_NAME" value="lesson7.MyClassTest" />
+      <option name="METHOD_NAME" value="check" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ServerApp" />
-      <item itemvalue="Application.ClientApp" />
-      <item itemvalue="Application.AuthDialog" />
-      <item itemvalue="Application.MySQLConnection" />
+      <item itemvalue="JUnit.MyClassMassTest" />
+      <item itemvalue="JUnit.MyClassTest.check" />
+      <item itemvalue="JUnit.MyClassTest.change" />
       <item itemvalue="Application.MyClass" />
+      <item itemvalue="JUnit.MyClassTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ClientApp" />
-        <item itemvalue="Application.ServerApp" />
+        <item itemvalue="JUnit.MyClassTest" />
+        <item itemvalue="JUnit.MyClassTest.change" />
+        <item itemvalue="JUnit.MyClassTest.check" />
         <item itemvalue="Application.MyClass" />
-        <item itemvalue="Application.MySQLConnection" />
-        <item itemvalue="Application.AuthDialog" />
+        <item itemvalue="JUnit.MyClassMassTest" />
       </list>
     </recent_temporary>
   </component>
@@ -306,10 +335,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="163" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584639657303" />
-    <state x="923" y="166" key="#com.intellij.ide.util.MemberChooser" timestamp="1585467893317">
+    <state x="923" y="166" key="#com.intellij.ide.util.MemberChooser" timestamp="1586682446159">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="923" y="166" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1585467893317" />
+    <state x="923" y="166" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586682446159" />
     <state x="627" y="257" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1584774885041">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -342,22 +371,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="724" y="155" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582221966632" />
-    <state width="1865" height="196" key="GridCell.Tab.0.bottom" timestamp="1585996526196">
+    <state width="1865" height="196" key="GridCell.Tab.0.bottom" timestamp="1586687346909">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="196" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585996526196" />
-    <state width="1865" height="196" key="GridCell.Tab.0.center" timestamp="1585996526196">
+    <state width="1865" height="196" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586687346909" />
+    <state width="1865" height="196" key="GridCell.Tab.0.center" timestamp="1586687346909">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="196" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585996526196" />
-    <state width="1865" height="196" key="GridCell.Tab.0.left" timestamp="1585996526196">
+    <state width="1865" height="196" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586687346909" />
+    <state width="1865" height="196" key="GridCell.Tab.0.left" timestamp="1586687346909">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="196" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585996526196" />
-    <state width="1865" height="196" key="GridCell.Tab.0.right" timestamp="1585996526196">
+    <state width="1865" height="196" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586687346909" />
+    <state width="1865" height="196" key="GridCell.Tab.0.right" timestamp="1586687346909">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="196" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585996526196" />
+    <state width="1865" height="196" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586687346909" />
     <state width="1865" height="262" key="GridCell.Tab.1.bottom" timestamp="1585424883188">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -390,10 +419,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585386065512" />
+    <state x="613" y="388" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1586623497601">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="613" y="388" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040@0.0.1920.1040" timestamp="1586623497601" />
     <state x="738" y="412" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585385880660">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="738" y="412" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1585385880660" />
+    <state x="729" y="146" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1586623509448">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="729" y="146" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586623509448" />
     <state x="746" y="346" width="665" height="584" key="extract.method.dialog" timestamp="1585398877945">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
