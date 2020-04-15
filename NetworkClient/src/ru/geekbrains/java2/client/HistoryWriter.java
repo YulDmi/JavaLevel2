@@ -14,7 +14,7 @@ public class HistoryWriter {
     }
 
     public synchronized void writeHistory(String line) {
-        System.out.println(line);
+        System.out.print(line);
         try(BufferedWriter bw = new BufferedWriter(new FileWriter(file, true))) {
             bw.write(line);
         } catch (IOException e) {

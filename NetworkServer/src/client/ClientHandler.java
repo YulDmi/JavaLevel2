@@ -1,13 +1,13 @@
 package client;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import ru.geekbrains.java2.MyServer;
-
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
 import java.net.Socket;
-import java.util.concurrent.Executor;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
@@ -18,7 +18,7 @@ public class ClientHandler {
     private DataOutputStream out;
     private String name;
     private int ID;
-   // private MessageHistory history;
+    private static final Logger LOGGER = LogManager.getLogger(ClientHandler.class);
 
 
     public ClientHandler(MyServer serverSocket, Socket client) {
@@ -37,7 +37,7 @@ public class ClientHandler {
                         authentication();
                         readMessage();
                     } catch (IOException e) {
-                        System.out.println("Ошибка аутентификации или соединения");
+                        LOGGER.error("Ошибка аутентификации или соединения");
                     } finally {
                         closeConnection();
                     }
@@ -45,7 +45,7 @@ public class ClientHandler {
             });
             service.shutdown();
         } catch (IOException e) {
-            e.printStackTrace();
+           LOGGER.error(e.getMessage());
         }
     }
 
@@ -87,8 +87,8 @@ public class ClientHandler {
     private void readMessage() throws IOException {
         while (true) {
             String message = in.readUTF();
-            String text = String.format("От %s : %s%n", name, message);
-            System.out.print(text);
+            String text = String.format("От %s : %s", name, message);
+            LOGGER.info(text);
             if (message.equalsIgnoreCase("/end")) {
                 myServer.unsubscribe(this);
                 return;
@@ -106,7 +106,7 @@ public class ClientHandler {
     private void changeField(String message) {
 
         String[] fields = message.split("\\s+", 2);
-        System.out.println("имя для смены -" + fields[1]);
+
         if (!fields[1].isEmpty()) {
             myServer.getAuthService().changeNick(fields[1], ID);
             privateMessage(String.format("/w %s Вы сменили свой никНайм на %s%n." +
@@ -127,7 +127,7 @@ public class ClientHandler {
         try {
             out.writeUTF(msg);
         } catch (IOException e) {
-            e.printStackTrace();
+           LOGGER.error(e.getMessage());
         }
     }
 
@@ -137,8 +137,8 @@ public class ClientHandler {
             out.close();
             socket.close();
         } catch (IOException e) {
-            System.out.println("Ошибка закрытия соединения");
-            e.printStackTrace();
+           LOGGER.error("Ошибка закрытия соединения");
+
         }
     }
 }

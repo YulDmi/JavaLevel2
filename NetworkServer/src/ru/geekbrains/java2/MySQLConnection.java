@@ -1,5 +1,8 @@
 package ru.geekbrains.java2;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import java.sql.*;
 
 public class MySQLConnection {
@@ -7,11 +10,9 @@ public class MySQLConnection {
     private static Connection conn;
     private PreparedStatement ps;
     private static ResultSet rs;
-
+    private static final Logger LOGGER = LogManager.getLogger(MySQLConnection.class);
     public MySQLConnection() {
         createConnection();
-//        createTable();
-//        writeTable();
     }
 
     private void createConnection() {
@@ -19,9 +20,9 @@ public class MySQLConnection {
             conn = null;
             Class.forName("org.sqlite.JDBC");
             conn = DriverManager.getConnection("jdbc:sqlite:C:\\Users\\ASUS\\Desktop\\SQLite\\MYBD.s3db");
-            System.out.println("Base connection");
+            LOGGER.info("Base connection");
         } catch (ClassNotFoundException | SQLException e) {
-            e.printStackTrace();
+            LOGGER.error(e.getMessage());
         }
     }
 
@@ -54,8 +55,8 @@ public class MySQLConnection {
             rs.close();
             conn.close();
         } catch (SQLException e) {
-            System.out.println("Ошибка закрытия соединения с базой");
-            e.printStackTrace();
+           LOGGER.error("Ошибка закрытия соединения с базой");
+
         }
     }
 
@@ -65,25 +66,6 @@ public class MySQLConnection {
         ps.setInt(2, id);
         ps.execute();
     }
-
-
-//    private void createTable() {
-//        try {
-//            statement = conn.createStatement();
-//            statement.execute("CREATE TABLE if not exists 'users' ('id' INTEGER PRIMARY KEY AUTOINCREMENT, 'name' text, 'login' text, `pass` text);");
-//        } catch (SQLException e) {
-//            e.printStackTrace();
-//        }
-//    }
-//
-//    private void writeTable() throws SQLException {
-//
-//        statement.execute("INSERT INTO 'users' ('name', 'login', 'pass') VALUES ('nick1',  'login1', 'password1'); ");
-//        statement.execute("INSERT INTO 'users' ('name', 'login', 'pass') VALUES ('nick2',  'login2', 'password2'); ");
-//        statement.execute("INSERT INTO 'users' ('name', 'login', 'pass') VALUES ('nick3',  'login3', 'password3'); ");
-//
-//    }
-
 
 }
 
