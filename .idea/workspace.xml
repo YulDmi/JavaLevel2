@@ -70,15 +70,15 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="lesson7" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\ASUS\IdeaProjects\JavaLevel2" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="lesson8" />
+      <recent name="ru.geekbrains.java2.client" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="lesson8" />
-      <recent name="ru.geekbrains.java2.client" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ASUS\IdeaProjects\JavaLevel2" />
     </key>
   </component>
   <component name="RunManager" selected="Application.StartTest">
@@ -325,37 +325,13 @@
     <option name="LAST_COMMIT_MESSAGE" value="annotation" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="545" y="42" key="CommitChangelistDialog2" timestamp="1586974760347">
+    <state x="545" y="42" key="CommitChangelistDialog2" timestamp="1609347680924">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="545" y="42" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586974760347" />
-    <state x="690" y="213" key="FileChooserDialogImpl" timestamp="1587064488258">
+    <state x="545" y="42" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1609347680924" />
+    <state x="452" y="168" key="Vcs.Push.Dialog.v2" timestamp="1609347567352">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="213" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587064488258" />
-    <state width="1865" height="196" key="GridCell.Tab.0.bottom" timestamp="1586975686790">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1865" height="196" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586975686790" />
-    <state width="1865" height="196" key="GridCell.Tab.0.center" timestamp="1586975686790">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1865" height="196" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586975686790" />
-    <state width="1865" height="196" key="GridCell.Tab.0.left" timestamp="1586975686790">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1865" height="196" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586975686790" />
-    <state width="1865" height="196" key="GridCell.Tab.0.right" timestamp="1586975686790">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1865" height="196" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586975686790" />
-    <state x="452" y="183" key="Vcs.Push.Dialog.v2" timestamp="1586974772700">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="452" y="183" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586974772700" />
-    <state x="230" y="48" key="new project wizard" timestamp="1595352673204">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="230" y="48" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1595352673204" />
+    <state x="452" y="168" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609347567352" />
   </component>
 </project>
